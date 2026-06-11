@@ -7,7 +7,11 @@
 ![ alt text ](https://img.shields.io/badge/-Keras-D00000?logo=Keras&logoColor=white)
 ![ alt text ](https://img.shields.io/badge/-scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
 
-Classification task using deep image embeddings extracted from pretrained CNNs. The following workflow to complete the task:
+Classification task using deep image embeddings extracted from pretrained CNNs. An efficient hybrid approach that combines transfer learning with traditional ML techniques:
+1. Use a pretrained TensorFlow CNN to extractor features.
+2. Convert each image into a dense embedding vector.
+3. Feed the embeddings into a classical machine learning model from scikit-learn.
+4. Train and evaluate the classifier.
 
 <p align='center'>
 <img height="550" alt="obraz" src="https://github.com/user-attachments/assets/309e6401-ad13-405c-8c23-e0c0f31db29e" />
